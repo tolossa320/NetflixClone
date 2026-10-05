@@ -1,0 +1,54 @@
+/* Outer container */
+.header-outer-container {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 8vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in;
+  z-index: 1000;
+}
+
+/* Inner container */
+.header_container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left section */
+.header_left ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+/* List items */
+.header_left ul li {
+  cursor: pointer;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+/* .header_left ul li:hover {
+  color: #e50914;  Netflix red 
+} */
+
+/* Logo image */
+.header_left ul li img {
+  width: 100px;
+  cursor: pointer;
+}
+.header_right ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
